@@ -1,3 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /hello/{name} #everything that matches /hello/ will go in this route.
+   controller: App\Controller\DefaultController::index
