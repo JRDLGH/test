@@ -1,3 +1,4 @@
+#We can also use annotations in Symfony, it's way more easy.
 index:
    path: /hello/{name} #everything that matches /hello/ will go in this route.
    controller: App\Controller\DefaultController::index
