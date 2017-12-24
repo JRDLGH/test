@@ -2,11 +2,12 @@
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
 
-/**
- * @Route("/hello/{name}")
- */
 class DefaultController{
+    /**
+     * @Route("/hello/{name}")
+     */
     public function index($name){
             return new Response('Hello '.$name.'!');
     }
